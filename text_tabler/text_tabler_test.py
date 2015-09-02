@@ -7,3 +7,6 @@ print(c1)
 testo2 = tt.Entry('Accipicchiolina!')
 c2 = tt.Cell(width=10, height=1, content=testo2)
 print(c2)
+
+c3 = tt.Cell(content=testo2)
+print(c3)
